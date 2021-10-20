@@ -3,8 +3,11 @@
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
 - [Instructions](#instructions)
+- [Delivering Your Work](#deliveringyourwork)
 
 ## 🖥 Prerequisites
+
+This task allows you to demonstrate some of the coding skills we use day to day in our team. There is scope to add extra features but as a guideline please spend no more than a few hours on the test in total.
 
 Before you start, you'll need to install [docker](https://docs.docker.com/get-docker/) and the [serverless](https://www.serverless.com/framework/docs/getting-started#install-via-npm) framework.
 
@@ -88,6 +91,6 @@ If you have any ideas for new features, feel free to add them in!
 
 > The [Movie Database](https://developers.themoviedb.org/3) is an Open API that allows you to search against TV shows and Actors. One idea could be to display the number of episodes each actor has been in?
 
-##### 📬 Delivering your work
+## 📬 Delivering your work
 
 Push your work to your forked repo. The BBC will have emailed you with a github account name which you should add as a maintainer so we can see the completed work.
