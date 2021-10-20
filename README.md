@@ -44,7 +44,7 @@ npm install
 npm start
 ```
 
-THis will fire up your app at [http://localhost:3000](http://localhost:3000)
+This will fire up your app at [http://localhost:3000](http://localhost:3000)
 
 ## 🏗 Instructions
 
