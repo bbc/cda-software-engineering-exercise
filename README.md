@@ -13,7 +13,9 @@ The login details for the database can be found in the [serverless.yml](server/s
 
 ## 🏃‍♀️ Getting started
 
-Clone this project and navigate to the directory
+Fork this project to a Github account you own
+
+Then clone this project and navigate to the directory
 
 ```
 git clone https://github.com/bbc/cda-software-engineer-exercise
@@ -85,3 +87,7 @@ There's also an empty text column in the database called `bio`
 If you have any ideas for new features, feel free to add them in!
 
 > The [Movie Database](https://developers.themoviedb.org/3) is an Open API that allows you to search against TV shows and Actors. One idea could be to display the number of episodes each actor has been in?
+
+#### Delivering your work
+
+Push your work to your forked repo. The BBC will have emailed you with a github account name which you should add as a maintainer so we can see the completed work.
