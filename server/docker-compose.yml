@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  database:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=eastenders

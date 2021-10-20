@@ -1,0 +1,30 @@
+service: eastenders
+
+plugins:
+  - serverless-offline
+
+custom:
+  serverless-offline:
+    httpPort: 4000
+    useChildProcesses: true
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: eu-west-1
+  environment:
+    HOST: 127.0.0.1
+    DATABASE: eastenders
+    USER: root
+    PASSWORD: secret
+
+functions:
+  graphql:
+    handler: index.handler
+    events:
+      - http:
+          path: graphql
+          method: get
+      - http:
+          path: graphql
+          method: post

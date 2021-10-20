@@ -1,0 +1,10 @@
+type Character {
+  id: Int
+  characterName: String
+  actorName: String
+  imageUrl: String
+}
+
+type Query {
+  characters: [Character]
+}

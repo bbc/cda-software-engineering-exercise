@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: ReithSans, Helvetica, Arial, sans-serif;
+  font-feature-settings: 'ss01';
+}
+
+.header {
+  background: linear-gradient(125deg, #253a81 50%, #3051c1);
+  color: #fff;
+  padding: 1rem 0;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem 1rem;
+}
+
+.grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 4em 0;
+  grid-template-columns: repeat(auto-fit, 200px);
+}
+
+img {
+  width: 100%;
+}
+
+input {
+  width: 60%;
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: ReithSans, Helvetica, Arial, sans-serif;
+}
