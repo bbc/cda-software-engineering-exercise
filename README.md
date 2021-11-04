@@ -21,8 +21,8 @@ Fork this project to a Github account you own
 Then clone this project and navigate to the directory
 
 ```
-git clone https://github.com/bbc/cda-software-engineer-exercise
-cd cda-software-engineer-exercise
+git clone https://github.com/bbc/cda-software-engineering-exercise.git
+cd cda-software-engineering-exercise
 ```
 
 You will need 2 terminal windows for the next part as you need to run commands in the client and server directories:
