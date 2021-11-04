@@ -11,6 +11,8 @@ This task allows you to demonstrate some of the coding skills we use day to day 
 
 Before you start, you'll need to install [docker](https://docs.docker.com/get-docker/) and the [serverless](https://www.serverless.com/framework/docs/getting-started#install-via-npm) framework.
 
+We recommend running Node 14. The code will fail on earlier versions due to [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) and hasn't been tested thoroughly on later versions.
+
 You can use a programme like [Sequel Pro](https://www.sequelpro.com/) (for Mac users), or [HeidiSQL](https://www.heidisql.com/)/[MySQL Workbench](https://www.mysql.com/products/workbench/) (for Windows users) to inspect your database.
 The login details for the database can be found in the [serverless.yml](server/serverless.yml) file.
 
