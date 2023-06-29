@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "serverless": "^2.0.0"
+    "serverless": "^3.33.0"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -9,7 +9,7 @@
     "graphql": "^15.6.1",
     "serverless-http": "^2.7.0",
     "serverless-mysql": "^1.5.4",
-    "serverless-offline": "^8.2.0"
+    "serverless-offline": "^12.0.4"
   },
   "scripts": {
     "prestart": "docker-compose up -d",
